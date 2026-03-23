@@ -1,0 +1,93 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+{% comment %}
+  Build a list of the 3 most recent first-author papers (by list order).
+  Everything else goes into "past publications."
+{% endcomment %}
+
+{% assign recent_fa_count = 0 %}
+{% assign recent_fa_indices = "" %}
+{% for pub in site.data.publications %}
+  {% if pub.first_author and recent_fa_count < 3 %}
+    {% if recent_fa_indices == "" %}
+      {% assign recent_fa_indices = forloop.index0 | append: "" %}
+    {% else %}
+      {% assign recent_fa_indices = recent_fa_indices | append: "," | append: forloop.index0 %}
+    {% endif %}
+    {% assign recent_fa_count = recent_fa_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign recent_indices_array = recent_fa_indices | split: "," %}
+
+<!-- ====== RECENT FIRST-AUTHOR PUBLICATIONS ====== -->
+<h2 class="section-heading">Recent Publications</h2>
+<ul class="pub-list">
+  {% for pub in site.data.publications %}
+    {% assign idx_str = forloop.index0 | append: "" %}
+    {% if recent_indices_array contains idx_str %}
+    <li class="pub-item pub-item--with-toc animate-in">
+      <div class="pub-content">
+        <div class="pub-text">
+          <h3><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
+          <p class="pub-authors">{{ pub.authors }}</p>
+          <p class="pub-venue">{{ pub.venue }}, {{ pub.year }}</p>
+          {% if pub.description %}
+          <p class="pub-description">{{ pub.description }}</p>
+          {% endif %}
+        </div>
+        {% if pub.toc_image %}
+        <img src="{{ pub.toc_image }}" alt="TOC figure for {{ pub.title }}" class="pub-toc-img">
+        {% endif %}
+      </div>
+      {% if pub.abstract %}
+      <details class="pub-abstract">
+        <summary>Abstract</summary>
+        <p>{{ pub.abstract }}</p>
+      </details>
+      {% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<!-- ====== PAST PUBLICATIONS ====== -->
+{% assign has_past = false %}
+{% for pub in site.data.publications %}
+  {% assign idx_str = forloop.index0 | append: "" %}
+  {% unless recent_indices_array contains idx_str %}
+    {% assign has_past = true %}
+  {% endunless %}
+{% endfor %}
+
+{% if has_past %}
+<hr class="section-divider">
+<h2 class="section-heading">Past Publications</h2>
+<ul class="pub-list">
+  {% for pub in site.data.publications %}
+    {% assign idx_str = forloop.index0 | append: "" %}
+    {% unless recent_indices_array contains idx_str %}
+    <li class="pub-item pub-item--with-toc animate-in">
+      <div class="pub-content">
+        <div class="pub-text">
+          <h3><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
+          <p class="pub-authors">{{ pub.authors }}</p>
+          <p class="pub-venue">{{ pub.venue }}, {{ pub.year }}</p>
+          {% if pub.description %}
+          <p class="pub-description">{{ pub.description }}</p>
+          {% endif %}
+
+        </div>
+        {% if pub.toc_image %}
+        <img src="{{ pub.toc_image }}" alt="TOC figure for {{ pub.title }}" class="pub-toc-img">
+        {% endif %}
+      </div>
+    </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,19 @@
+# PROJECTS 
+#
+# Each project becomes a card on the Projects page.
+# Projects with featured: true also appear on the homepage.
+# Fields:
+#   title:       Project name
+#   url:         Link (GitHub, demo, etc.)
+#   image:       Path to screenshot/icon (put images in /assets/images/)
+#   description: One or two sentences about the project
+#   tags:        List of technology/topic tags
+#   featured:    Show on homepage?
+
+- title: "SMAK - Soft Matter Analysis Kit"
+  url: "/404.html"
+  image: "/assets/images/placeholder-project.svg"
+  description: "Python package for analyzing various experimental soft matter data."
+  tags: ["Python", "Data Analysis"]
+  featured: true
+

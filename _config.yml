@@ -1,0 +1,53 @@
+# SITE SETTINGS
+
+title: "Rithwik Ghanta"
+description: "Connecting molecular polymer architecture to bulk properties"
+url: "https://rithwik94.github.io"  # Your GitHub Pages URL
+baseurl: ""  # Leave empty if hosted at root
+
+# --- Personal Info ---
+author:
+  name: "Rithwik Ghanta"
+  title: "Ph.D. Candidate"
+  affiliation: "University of Illinois Urbana Champaign"
+  affiliation_url: "https://kuenstler.web.illinois.edu/"
+  group: "Kuenstler Group"
+  group_url: "https://kuenstler.web.illinois.edu/"
+  email: "rghanta2@illinois.edu"
+  bio: >-
+    Under construction.
+  bio_extended: >-
+  headshot: "/assets/images/headshot.jpg"
+
+# --- Social Links ---
+social:
+  cv: "/assets/docs/cv.pdf"
+  linkedin: "https://linkedin.com/in/rithwikg/"
+  github: "https://github.com/rithwik94"
+  google_scholar: "https://scholar.google.com/citations?user=Xh99s18AAAAJ&hl=en&oi=ao"
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+  # researchgate: "https://researchgate.net/profile/YourName"
+
+# --- Navigation ---
+nav:
+  - title: "About"
+    url: "/"
+  - title: "Research"
+    url: "/research"
+  - title: "Presentations"
+    url: "/presentations"
+  - title: "Projects"
+    url: "/projects"
+
+
+# BUILD SETTINGS
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

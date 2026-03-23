@@ -1,0 +1,50 @@
+# PUBLICATIONS — Paoers with most recent first
+#
+# Fields:
+#   title:        Paper title
+#   authors:      Author list
+#   venue:        Journal
+#   year:         Publication year
+#   url:          Link to the published paper
+#   preprint:     (optional) Link to preprint / arXiv
+#   abstract:     (optional) Full abstract — shown as dropdown for recent first-author papers
+#   toc_image:    (optional) Path to TOC/graphical abstract image (put in /assets/images/)
+#   first_author: true/false — set true if you are first author
+#   featured:     (optional) Set to true to show on homepage
+
+- title: "The Role of Catalyst Mobility and Concentration on the Linear Viscoelasticity of Associative Dynamic Covalent Networks"
+  authors: "<strong>R. Ghanta</strong>*, S. Kannapadi*, ..., S.A. Rogers, and A.S. Kuenstler"
+  venue: "Macromolecules, XXX, XXX-XXX"
+  year: 2026
+  url: "https://doi.org/10.1021/acs.macromol.6c00112"
+  description: >-
+  abstract: >-
+    Associative dynamic covalent networks combine the elastic properties of cross-linked thermosets with the viscous flow of thermoplastics, thus enabling reprocessability while maintaining network connectivity. In this work, we investigate the effect of catalyst mobility and concentration on the linear viscoelasticity of associative thiol-thioester dynamic covalent networks. We present a simple method to covalently tether nucleophiles capable of catalyzing thiol-thioester exchange reactions to polymer networks and compare their viscoelastic behavior to their analogous untethered catalyst. We first show that the cross-linking density and bond dynamics can be independently tuned using precise stoichiometric adjustments for both catalyst systems. Notably, we find that the mobility of the catalysts does not affect the bond dynamics, as validated by similar relaxation times between the tethered and untethered catalysts for a given temperature and catalyst loading. Creep experiments show that the dynamic bonds are continuously exchanging in the polymer networks and can be well described by a single-mode Maxwell model. We find that a single set of horizontal and vertical shift factors was sufficient to construct time–temperature superposition (TTS) master curves and was directly related to the relaxation time and the cross-linking density, respectively, further validating the structure–property relations. Activation energies calculated from the Arrhenius relationship with the flow viscosity are systematically higher for the tethered catalysts, which we hypothesize is due to steric effects in the polymer networks. Finally, we propose the use of time–temperature-catalyst superposition (TTCS) as a framework to probe the bond dynamics spanning substantially longer time scales than TTS as a function of temperature and catalyst loading.
+  toc_image: "/assets/images/2_role_of_catalyst_mobility_TOC.svg"
+  first_author: true
+  featured: true
+
+- title: "The Influence of the Thiol-ene Mechanism on Polymer Network Topology"
+  authors: "<strong>R. Ghanta</strong>*, B.C. Jeong*,  A.S. Kuenstler, and A. Statt"
+  venue: "Macromolecules, 59, 4, 2500–2514"
+  year: 2026
+  url: "https://doi.org/10.1021/acs.macromol.5c02209"
+  description: >-
+  abstract: >-
+    Over the past few decades, thiol-ene photopolymerization has gained popularity for synthesizing polymer networks with near-ideal architectures and predictable mechanical properties. However, growing experimental evidence of heterogeneity varying with chemical design parameters in such networks has raised questions about the chemistry’s ideality and the broader relationship between network architecture and macroscopic properties. In this work, we use a computational framework based on generalizable Kremer-Grest bead-spring representations and Monte Carlo-based reactive molecular dynamics to simulate thiol-ene-like network formation. We compare ideal step-growth thiol-ene and step-growth/chain-growth mixed-mechanism photopolymerization pathways of common thiol-based chemistries across tetra-functional cross-linker concentrations. Our results reveal the influence of synthetic variables (i.e., monomer reactivity and composition) on conversion, gelation, network architecture, and bulk mechanical properties. Additionally, we confirm these computational findings with experimental analogues, which reveal reactive accuracy through qualitative agreement between functional-group conversion and gel points. Notably, we find that network defects form more prominently at low cross-linker concentrations and with high monomer rigidity in step-growth systems, the majority of which are dangling ends. In contrast, mixed-mechanism systems produce networks less sensitive to synthetic conditions but with more heterogeneous structures, as evidenced by strand-length distributions and Voronoi volume variance. These findings underscore the role of synthetic conditions and reaction pathways in tuning network topology and provide new insights for the rational design of photopolymerization chemistries.
+  toc_image: "/assets/images/1_influence_of_thiol_ene_TOC.svg"
+  first_author: true
+  featured: true
+
+- title: "Harnessing ene-type and stereochemistry to control reaction kinetics and network architecture in thiol–ene photopolymerizations using maleate and fumarate-derived monomers"
+  authors: "<strong>R. Ghanta</strong>, A. Abilova, C. McAndrew and A.S. Kuenstler"
+  venue: "Polymer Chemistry, 16, 1829-1845"
+  year: 2025
+  url: "https://doi.org/10.1234/example3"
+  description: >-
+  abstract: >-
+    Herein we report photo-dose tunable crosslinking density in polymer networks by exploiting the relative rates of thiol–ene click chemistry and chain-growth homopolymerization in symmetric triene monomers. From biomass-derived diacids, these synthesized trienes incorporate terminal allyl ether groups and internal fumarate/maleate groups, providing varied reactivity. Through small-molecule monothiol addition, 1H-NMR results indicate fast preferential thiol addition to terminal allyl groups and slower stereochemistry-dependent homopolymerization of fumarate/maleate groups. Incorporating these monomers with dithiols and triallyl crosslinkers allows formation of polymer networks, using both thiol–ene addition and homopolymerization as photo-crosslinking mechanisms on differing timescales. In situ photo-rheology and dynamic mechanical analysis demonstrate impacts of the mixed-mechanism on light-dependent evolution of network architectures from initial gelation to increasing crosslinking density with prolonged exposure. Ultimately, the mixed-mechanism polymerization enables grayscale patterning and 3D printing, offering potential for in situ patterning of glasslike and rubbery regions within monolithic materials.
+  toc_image: "/assets/images/0_fumarate_maleate_TOC.svg"
+  first_author: true
+  featured: true
+

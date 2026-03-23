@@ -1,0 +1,29 @@
+# RESEARCH AREAS -  for later
+#
+# Fields:
+#   title:       Research area name
+#   keywords:    Short keyword string (italic subtitle)
+#   description: A paragraph describing this research direction
+#   image:       Path to an image (put in /assets/images/)
+
+- title: "Research Area One"
+  keywords: "methods, modeling, analysis"
+  description: >-
+    Describe your first research area here. What questions drive this work?
+    What methods do you use? Why does it matter? Write in an accessible way
+    so visitors outside your field can understand.
+  image: "/assets/images/placeholder-research.svg"
+
+- title: "Research Area Two"
+  keywords: "experiments, design, applications"
+  description: >-
+    Describe your second research area. Connect it to the bigger picture.
+    Feel free to mention specific projects or collaborations.
+  image: "/assets/images/placeholder-research.svg"
+
+- title: "Research Area Three"
+  keywords: "theory, computation, systems"
+  description: >-
+    A third area of focus. You can add or remove these blocks freely —
+    just add or delete entries in this file.
+  image: "/assets/images/placeholder-research.svg"

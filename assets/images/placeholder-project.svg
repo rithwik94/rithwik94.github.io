@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.91 394.02">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Avenir-HeavyOblique, Avenir;
+        font-size: 30px;
+        font-style: oblique;
+        font-weight: 800;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3, .cls-2 {
+        stroke: #231f20;
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-2, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #feeb3d;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-5" x=".5" y=".5" width="579.91" height="393.02"/>
+    <rect class="cls-4" x="180.45" y="76.35" width="240.81" height="240.81" rx="24.65" ry="24.65" transform="translate(227.24 -155.11) rotate(45)"/>
+    <rect class="cls-3" x="193.48" y="89.38" width="215.25" height="215.25" rx="24.65" ry="24.65" transform="translate(227.5 -155.22) rotate(45)"/>
+    <circle class="cls-2" cx="301.11" cy="348.32" r="3.44"/>
+    <circle class="cls-2" cx="300.86" cy="45.7" r="3.44"/>
+    <text class="cls-1" transform="translate(243.9 171.81)"><tspan x="0" y="0">UNDER </tspan><tspan x="-62.49" y="36">CONSTRUCTION</tspan></text>
+  </g>
+</svg>

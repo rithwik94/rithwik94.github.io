@@ -1,0 +1,43 @@
+# Presentations given
+# Fields:
+#   title:    Talk title
+#   event:    Conference or event name
+#   date:     Date string (e.g. "March 2025")
+#   location: City, Country
+#   slides/poster:   (optional) Link to slides
+#   oral:    True/False
+
+- title: "Unraveling the Impact of Mechanism and Stoichiometry on Network Heterogeneity in Thiol-Ene Photopolymerizations"
+  event: "APS Global Summit 2026"
+  date: "March 2026"
+  location: "Denver, CO"
+  slides: "https://uofi.box.com/s/8zy2sa0neeg2ynbxfhikyam3a53v8bcc"
+  oral: true
+
+- title: "Systematic Exploration of Molecular Architecture Effects on Polymer Network Crystallinity"
+  event: "APS Global Summit 2025"
+  date: "March 2025"
+  location: "Anaheim, CA"
+  slides: "https://uofi.box.com/s/44wml4tlloretg4bdmtyyqo3c1rjyfny"
+  oral: true
+
+- title: "An interpretable model for polydiketoenamine recyclability"
+  event: "March Meeting 2022"
+  date: "March 2022"
+  location: "(remote) Chicago, IL"
+  slides: "https://uofi.box.com/s/30vgzf1cbnpqtmpi8wobf1006tqpnw8q"
+  oral: true
+
+- title: "Revealing Network Architecture Effects on Semi-Crystalline Polymer Networks"
+  event: "APS Global Summit 2026"
+  date: "March 2026"
+  location: "Denver, CO"
+  poster: "https://uofi.box.com/s/03z33l1yyoky4l8sxknrgh8086t17193"
+  oral: false
+
+- title: "Effect of Kinetically-Distinct Crosslinking on Temporal Mechanical Property Development in Photopolymerized Networks"
+  event: "March Meeting 2024"
+  date: "March 2024"
+  location: "Minneapolis, MN"
+  poster: "https://uofi.box.com/s/g46ez7z3k11m5semajick6dp7mrgf9xv"
+  oral: false
